@@ -26,7 +26,15 @@
                           Width="15"
                           HorizontalAlignment="Stretch"
                           x:Name="ViewSplitter"
-                          Visibility="Collapsed"/>
+                          Visibility="{Binding Path=GridSplitter}" />
+            <TextBlock Grid.Column="1"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       IsHitTestVisible="False"
+                       Text="&#x22ee;"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Visibility="{Binding Path=GridSplitter}"/>
         </Grid>
         <Button x:Name="OpenGridMenu"
                     HorizontalAlignment="Left"
