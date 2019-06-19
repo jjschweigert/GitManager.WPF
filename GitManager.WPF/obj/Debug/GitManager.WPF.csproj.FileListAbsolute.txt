@@ -1,9 +1,14 @@
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\GitManager.WPF.exe.config
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\GitManager.WPF.exe
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\GitManager.WPF.pdb
-\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csprojAssemblyReference.cache
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\MaterialDesignColors.dll
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\MaterialDesignColors.pdb
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\MainWindow.g.cs
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\App.g.cs
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF_MarkupCompile.cache
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF_MarkupCompile.lref
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\MainWindow.baml
@@ -11,5 +16,7 @@
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.Properties.Resources.resources
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csproj.GenerateResource.cache
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csproj.CoreCompileInputs.cache
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csproj.CopyComplete
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.exe
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.pdb
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csprojAssemblyReference.cache
