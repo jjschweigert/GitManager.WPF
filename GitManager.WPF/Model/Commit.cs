@@ -11,6 +11,6 @@ namespace GitManager.WPF.Model
         public DateTime Date { get; set; }
         public string ShortName { get; set; }
         public string Message { get; set; }
-        public string Who { get; set; }
+        public string Commiter { get; set; }
     }
 }

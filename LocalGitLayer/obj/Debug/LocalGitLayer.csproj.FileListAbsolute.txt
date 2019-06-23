@@ -15,7 +15,6 @@
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\bin\Debug\LibGit2Sharp.dll
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\bin\Debug\LibGit2Sharp.pdb
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\bin\Debug\LibGit2Sharp.xml
-\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\obj\Debug\LocalGitLayer.csprojAssemblyReference.cache
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\obj\Debug\LocalGitLayer.csproj.CoreCompileInputs.cache
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\obj\Debug\LocalGitLayer.csproj.CopyComplete
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\LocalGitLayer\obj\Debug\LocalGitLayer.dll

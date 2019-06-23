@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GitManager.WPF.Model
 {
-    public class Repository_Model
+    public class Repository
     {
         public enum Status_T
         {

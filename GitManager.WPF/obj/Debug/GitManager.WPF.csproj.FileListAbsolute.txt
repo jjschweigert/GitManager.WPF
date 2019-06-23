@@ -19,4 +19,9 @@
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csproj.CopyComplete
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.exe
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.pdb
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\Test.g.cs
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\Test.baml
 \\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\GitManager.WPF.csprojAssemblyReference.cache
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\App.baml
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\Window1.g.cs
+\\HYPERVSERVER\HyperVStorage\Source\GitManager.WPF\GitManager.WPF\GitManager.WPF\obj\Debug\Window1.baml
