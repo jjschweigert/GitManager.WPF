@@ -4,94 +4,92 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitManager.WPF"
+        xmlns:helpers="clr-namespace:GitManager.WPF.Helpers"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800"
-        Loaded="Window_Loaded">
+        Title="Window1"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        Height="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}, Converter={helpers:RatioConverter}, ConverterParameter='1.0' }"
+        Width="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenWidth}, Converter={helpers:RatioConverter}, ConverterParameter='1.0' }"
+        MinWidth="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenWidth}, Converter={helpers:RatioConverter}, ConverterParameter='0.65', UpdateSourceTrigger=PropertyChanged}"
+        MinHeight="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}, Converter={helpers:RatioConverter}, ConverterParameter='0.45', UpdateSourceTrigger=PropertyChanged}">
     <Grid>
         <Button x:Name="openOverlay" Content="Open" Width="200" Height="75">
             <Button.Triggers>
                 <EventTrigger RoutedEvent="Button.Click">
+
                     <BeginStoryboard>
                         <Storyboard>
                             <DoubleAnimation Storyboard.TargetName="OverlayGrid"
                                              Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)"
-                                             From="-450"
+                                             From="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}, Converter={helpers:RatioConverter}, ConverterParameter='-1.0' }"
                                              To="0"
                                              Duration="0:0:0.2" />
-                            <DoubleAnimation Storyboard.TargetName="openOverlay"
+                            <!--<DoubleAnimation Storyboard.TargetName="OverlayBackgroundCanvas"
                                                  Storyboard.TargetProperty="(UIElement.Opacity)"
-                                                 From="1"
-                                                 To="0"
-                                                 Duration="0:0:0" />
+                                                 From="0"
+                                                 To="0.85"
+                                                 Duration="0:0:0.2" />-->
+
+
+                            <!--<DoubleAnimationUsingKeyFrames Duration="0" Storyboard.TargetName="OverlayGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
+                                <DiscreteDoubleKeyFrame KeyTime="0" Value="0.8" />
+                            </DoubleAnimationUsingKeyFrames>-->
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>
             </Button.Triggers>
         </Button>
-        <Grid x:Name="OverlayGrid" Background="Black" Opacity="0.7" Width="800" Height="450" HorizontalAlignment="Center" VerticalAlignment="Center"
+        <Grid x:Name="OverlayGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
               Margin="-30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
             <Grid.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform />
                     <SkewTransform />
                     <RotateTransform />
-                    <TranslateTransform Y="-450"/>
+                    <TranslateTransform Y="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}, Converter={helpers:RatioConverter}, ConverterParameter='-1.0' }"/>
                 </TransformGroup>
             </Grid.RenderTransform>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0"
-                    Margin="10" x:Name="closeOverlay" Content="Close" Width="200" Height="75" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                <Button.Triggers>
-                    <EventTrigger RoutedEvent="Button.Click">
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetName="OverlayGrid"
-                                             Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)"
-                                             From="0"
-                                             To="-450"
-                                             Duration="0:0:0.2" />
-                                <DoubleAnimation Storyboard.TargetName="openOverlay"
-                                                 Storyboard.TargetProperty="(UIElement.Opacity)"
+            <Canvas Grid.Row="0" Grid.Column="0" Background="Black" Opacity="0.85" x:Name="OverlayBackgroundCanvas" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Grid Grid.Row="0" Grid.Column="0" x:Name="OverlayContentGrid" Opacity="0.65" Background="Red" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="100">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0"
+                        Margin="10" x:Name="closeOverlay" Content="Close" Width="200" Height="75" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Button.Click">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="OverlayGrid"
+                                                 Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)"
                                                  From="0"
-                                                 To="1"
-                                                 Duration="0:0:0" />
-                            </Storyboard>
-                        </BeginStoryboard>
+                                                 To="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}, Converter={helpers:RatioConverter}, ConverterParameter='-1.0' }"
+                                                 Duration="0:0:0.2" />
+                                    <!--<DoubleAnimation Storyboard.TargetName="OverlayBackgroundCanvas"
+                                                 Storyboard.TargetProperty="(UIElement.Opacity)"
+                                                 From="0.85"
+                                                 To="0"
+                                                 Duration="0:0:0.2" />-->
+                                </Storyboard>
+                            </BeginStoryboard>
 
-                    </EventTrigger>
-                </Button.Triggers>
-            </Button>
-            <Button Grid.Row="0" Grid.Column="1"
-                    Background="Orange"
-                    Content="Something"
-                    Width="200"
-                    Height="75"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Bottom" 
-                    Margin="10"/>
-            <Button Grid.Row="1" Grid.Column="0"
-                    Background="Green"
-                    Content="Something"
-                    Width="200"
-                    Height="75"
-                    HorizontalAlignment="Right"
-                    VerticalAlignment="Top"
-                    Margin="10" />
-            <Button Grid.Row="1" Grid.Column="1"
-                    Background="Red"
-                    Content="Something"
-                    Width="200"
-                    Height="75"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="10" />
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+            </Grid>
         </Grid>
     </Grid>
 </Window>
