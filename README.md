@@ -1,4 +1,4 @@
-# GitManager
+# Git Manager
 
 ## Motivation
 (Todo)
