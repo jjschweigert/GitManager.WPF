@@ -10,7 +10,7 @@
 (Todo)
 
 ## Code Style
-(Todo)
+Written using xaml and c# as a Windows Presentation Foundation (WPF) application
 
 ## Screenshots
 (Todo)
