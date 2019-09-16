@@ -1,4 +1,4 @@
-# GitManager.WPF
+# Git Manager
 
 ## Motivation
 (Todo)
