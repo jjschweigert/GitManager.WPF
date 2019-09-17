@@ -1,0 +1,17 @@
+C:\Source\GitManager.WPF\Views\bin\Debug\Views.dll
+C:\Source\GitManager.WPF\Views\bin\Debug\Views.pdb
+C:\Source\GitManager.WPF\Views\bin\Debug\ViewModels.dll
+C:\Source\GitManager.WPF\Views\bin\Debug\ViewModels.pdb
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.csprojAssemblyReference.cache
+C:\Source\GitManager.WPF\Views\obj\Debug\Playground.g.cs
+C:\Source\GitManager.WPF\Views\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Source\GitManager.WPF\Views\obj\Debug\Views_MarkupCompile.cache
+C:\Source\GitManager.WPF\Views\obj\Debug\Views_MarkupCompile.lref
+C:\Source\GitManager.WPF\Views\obj\Debug\Playground.baml
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.g.resources
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.Properties.Resources.resources
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.csproj.GenerateResource.cache
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.csproj.CopyComplete
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.dll
+C:\Source\GitManager.WPF\Views\obj\Debug\Views.pdb

@@ -22,11 +22,11 @@ namespace GitManager.WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        public Model.MainWindow TestViewModel { get; set; }
+        public Models.PlaygroundWindow TestViewModel { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            TestViewModel = new Model.MainWindow();
+            TestViewModel = new Models.PlaygroundWindow();
             DataContext = TestViewModel;
         }
 
@@ -39,7 +39,7 @@ namespace GitManager.WPF
 
         private void Open_Sidebar_Button_Click(object sender, RoutedEventArgs e)
         {
-            Window1 newWin = new Window1();
+            var newWin = new Views.Playground();
             newWin.DataContext = TestViewModel;
             newWin.ShowDialog();
             //TestViewModel.Content_GridSplitter_Visibility = Visibility.Collapsed;
