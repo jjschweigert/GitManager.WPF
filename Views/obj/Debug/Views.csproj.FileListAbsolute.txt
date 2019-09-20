@@ -15,3 +15,10 @@ C:\Source\GitManager.WPF\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
 C:\Source\GitManager.WPF\Views\obj\Debug\Views.csproj.CopyComplete
 C:\Source\GitManager.WPF\Views\obj\Debug\Views.dll
 C:\Source\GitManager.WPF\Views\obj\Debug\Views.pdb
+C:\Source\GitManager.WPF\Views\obj\Debug\MainView.g.cs
+C:\Source\GitManager.WPF\Views\obj\Debug\MainView.baml
+C:\Source\GitManager.WPF\Views\bin\Debug\MaterialDesignColors.dll
+C:\Source\GitManager.WPF\Views\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Source\GitManager.WPF\Views\bin\Debug\MaterialDesignColors.pdb
+C:\Source\GitManager.WPF\Views\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Source\GitManager.WPF\Views\bin\Debug\MaterialDesignThemes.Wpf.xml
