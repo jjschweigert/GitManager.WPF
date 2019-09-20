@@ -35,5 +35,22 @@ namespace Views
 
             MainGrid.BeginAnimation(OpacityProperty, opacityChange);
         }
+
+        private void Grid_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if(NotificationIcon.Visibility == Visibility.Collapsed)
+            {
+                NotificationIcon.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                NotificationIcon.Visibility = Visibility.Collapsed;
+            }
+        }
     }
 }

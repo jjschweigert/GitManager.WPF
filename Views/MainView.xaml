@@ -242,7 +242,8 @@
 
                 <Grid Margin="5"
                       Grid.Row="4"
-                      Grid.Column="2">
+                      Grid.Column="2"
+                      MouseDown="Grid_MouseDown">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="300"
                                           Color="Orange"
@@ -276,7 +277,9 @@
                                                  Foreground="Blue"
                                                  Margin="-120, -15, 0, 0"
                                                  Width="50"
-                                                 Height="50"/>
+                                                 Height="50"
+                                                 Visibility="Collapsed"
+                                                 x:Name="NotificationIcon"/>
                     </StackPanel>
                 </Grid>
             </Grid>
