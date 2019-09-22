@@ -15,8 +15,7 @@ namespace GitManager.WPF
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            Views.MainView MainWindow = new Views.MainView();
-            MainWindow.Show();
+            
         }
     }
 }

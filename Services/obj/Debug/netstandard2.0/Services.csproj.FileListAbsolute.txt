@@ -1,0 +1,12 @@
+C:\Source\GitManager.WPF\Services\bin\Debug\netstandard2.0\Services.deps.json
+C:\Source\GitManager.WPF\Services\bin\Debug\netstandard2.0\Services.dll
+C:\Source\GitManager.WPF\Services\bin\Debug\netstandard2.0\Services.pdb
+C:\Source\GitManager.WPF\Services\bin\Debug\netstandard2.0\Data.dll
+C:\Source\GitManager.WPF\Services\bin\Debug\netstandard2.0\Data.pdb
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.csprojAssemblyReference.cache
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.AssemblyInfoInputs.cache
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.AssemblyInfo.cs
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.dll
+C:\Source\GitManager.WPF\Services\obj\Debug\netstandard2.0\Services.pdb

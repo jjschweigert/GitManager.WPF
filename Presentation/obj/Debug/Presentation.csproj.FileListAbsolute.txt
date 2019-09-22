@@ -1,0 +1,5 @@
+C:\Source\GitManager.WPF\Presentation\bin\Debug\Presentation.dll
+C:\Source\GitManager.WPF\Presentation\bin\Debug\Presentation.pdb
+C:\Source\GitManager.WPF\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\Source\GitManager.WPF\Presentation\obj\Debug\Presentation.dll
+C:\Source\GitManager.WPF\Presentation\obj\Debug\Presentation.pdb

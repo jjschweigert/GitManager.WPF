@@ -1,0 +1,5 @@
+C:\Source\GitManager.WPF\Controls\bin\Debug\Controls.dll
+C:\Source\GitManager.WPF\Controls\bin\Debug\Controls.pdb
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.dll
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.pdb
