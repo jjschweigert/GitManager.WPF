@@ -96,8 +96,36 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Resource Include="Assets\back.jpg" />
+    <Resource Include="Assets\pexels-photo-247885.jpeg" />
+    <Resource Include="Assets\pexels-photo-374592.jpeg" />
+    <Resource Include="Assets\pexels-photo-701026.jpeg" />
+    <Resource Include="Assets\pexels-photo-701337.jpeg" />
+    <Resource Include="Assets\pexels-photo-701449.jpeg" />
+    <Resource Include="Assets\pexels-photo-701762.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{c6e46801-2e21-4a6b-83ac-50532459888a}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{308becde-849e-4bde-8e45-58ccbae82d58}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentation\Presentation.csproj">
+      <Project>{a6df2b4c-8abc-44a9-8f31-83c918b3527f}</Project>
+      <Name>Presentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{cae81f6d-0985-4c88-a3af-d45db5d72534}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{fb80d4a1-bbb8-4d77-ba11-f40d2414395f}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Views\Views.csproj">
       <Project>{621d69f9-b469-4f6b-9f5a-0fed441b0ee1}</Project>
       <Name>Views</Name>

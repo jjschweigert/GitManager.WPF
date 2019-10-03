@@ -31,7 +31,6 @@ C:\Source\GitManager.WPF\Utilities\bin\Debug\netstandard2.0\System.Security.xml
 C:\Source\GitManager.WPF\Utilities\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.xml
 C:\Source\GitManager.WPF\Utilities\bin\Debug\netstandard2.0\System.Windows.Forms.xml
 C:\Source\GitManager.WPF\Utilities\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
-C:\Source\GitManager.WPF\Utilities\obj\Debug\netstandard2.0\Utilities.csprojAssemblyReference.cache
 C:\Source\GitManager.WPF\Utilities\obj\Debug\netstandard2.0\Utilities.csproj.CoreCompileInputs.cache
 C:\Source\GitManager.WPF\Utilities\obj\Debug\netstandard2.0\Utilities.AssemblyInfoInputs.cache
 C:\Source\GitManager.WPF\Utilities\obj\Debug\netstandard2.0\Utilities.AssemblyInfo.cs

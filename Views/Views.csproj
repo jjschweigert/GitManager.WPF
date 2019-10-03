@@ -54,6 +54,9 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -77,6 +80,26 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Page Include="MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{c6e46801-2e21-4a6b-83ac-50532459888a}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\back.jpg" />
+    <Resource Include="Assets\pexels-photo-247885.jpeg" />
+    <Resource Include="Assets\pexels-photo-374592.jpeg" />
+    <Resource Include="Assets\pexels-photo-701026.jpeg" />
+    <Resource Include="Assets\pexels-photo-701337.jpeg" />
+    <Resource Include="Assets\pexels-photo-701449.jpeg" />
+    <Resource Include="Assets\pexels-photo-701762.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

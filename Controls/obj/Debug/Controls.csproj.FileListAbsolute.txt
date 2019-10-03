@@ -1,5 +1,16 @@
 C:\Source\GitManager.WPF\Controls\bin\Debug\Controls.dll
 C:\Source\GitManager.WPF\Controls\bin\Debug\Controls.pdb
+C:\Source\GitManager.WPF\Controls\bin\Debug\MaterialDesignColors.dll
+C:\Source\GitManager.WPF\Controls\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Source\GitManager.WPF\Controls\bin\Debug\MaterialDesignColors.pdb
+C:\Source\GitManager.WPF\Controls\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Source\GitManager.WPF\Controls\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Source\GitManager.WPF\Controls\obj\Debug\User\MediumTile.g.cs
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls_MarkupCompile.cache
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls_MarkupCompile.lref
+C:\Source\GitManager.WPF\Controls\obj\Debug\User\MediumTile.baml
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.g.resources
 C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.csproj.CopyComplete
 C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.dll
 C:\Source\GitManager.WPF\Controls\obj\Debug\Controls.pdb
